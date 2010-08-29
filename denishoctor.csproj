@@ -98,8 +98,8 @@
     <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\CV.aspx" />
     <Content Include="Views\Home\Index.aspx" />
-    <Content Include="Views\Shared\Portfolio.aspx" />
-    <Content Include="Views\Shared\RoadMap.aspx" />
+    <Content Include="Views\Home\Portfolio.aspx" />
+    <Content Include="Views\Home\RoadMap.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
