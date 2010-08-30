@@ -6,14 +6,14 @@
     <section id="content" class="body cv">
         <a href="static/resources/DenisHoctorCV.pdf" class="downlodcv">
             <div class="dl">Download</div>
-            <div>My CV</div>        
+            <div>My CV</div>
         </a>
 	    <h2>DENIS HOCTOR</h2>
 	    <h3 class="lower">B.Sc. Computer Applications: Information Systems</h3>
 	    <ul>
 	        <li>denishoctor@gmail.com</li>
 	        <li>+353 (0)86 826 1346 (Ireland)</li>
-	        <li>+61 415 725 7746 (Australia)</li>
+	        <li>+61 415 725 746 (Australia)</li>
 	        <li><a href="http://www.linkedin.com/in/denishoctor">http://www.linkedin.com/in/denishoctor</a></li>
 	        <li><a href="http://www.denishoctor.me">http://www.denishoctor.me</a></li>
 	    </ul>
@@ -33,7 +33,7 @@
 		<p><span class="title">Frameworks/Practices:</span> jQuery, ASP.NET  MVC, ASP.NET  2.0 – 4.0, Progressive Enhancement, Mobile Web Development, SEO, W3C, Google Maps JavaScript API</p>
 		<p><span class="title">Applications:</span> Visual Studio 2008/10, Tortoise SVN/Git, Photoshop, SQL Server 2008, Google Analytics / Omniture</p>
 	
-	    <h3>WORK EXPERIENCE</h3>		
+	    <h3>WORK EXPERIENCE</h3>
 	    <h4>Apr 2008–Sep 2010 .NET Developer, MyHome.ie in Dublin, Ireland</h4>
 		<p>MyHome.ie is the No. 1 residential property site in Ireland with 50k daily unique visitors. I gained a large amount of experience on both the client and server side during my time with them.</p>
 	    <ul>
@@ -42,7 +42,7 @@
 			<li>Maintained the live site across browsers and developed partnership integrations</li>
 			<li>ASP.NET MVC, Visual Studio, jQuery, HTML, CSS, SQL Server, XML/JSON, Service Orientated Architecture</li>
 	    </ul>
-	    <div class="projects">	    
+	    <div class="projects">
 			<h5 class="title">Projects</h5>
 		    <ul>
 				<li>www.myhome.ie - 6 months
@@ -64,7 +64,7 @@
 						<li>Contributed back to the community with extensions to open source plugins</li>
 					</ul>
 				</li>
-			</ul>		
+			</ul>
 		    <ul>
 				<li>m.myhome.ie	- 2 week
 					<ul>
