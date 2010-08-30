@@ -19,11 +19,14 @@
         <nav class="body">
           <ul>
             <li><h1><a href="/"><img src="/static/images/logo-white.png" alt="Denis Hoctor Dot Me Logo" title="DenisHoctorDotMe" /></a></h1></li>
-            <li><a href="/" class="button">Home</a></li>
-            <li><a href="/portfolio" class="button">Portfolio</a></li>
-            <li><a href="/cv" class="button">My CV</a></li>
-            <li><a href="/about" class="button">About Me</a></li>
-            <li><a href="/roadmap" class="button">Site Roadmap</a></li>
+            <li class="float-right">
+                <ul>
+                    <li><a href="/" class="button"><span class="home">Home</span></a></li>
+                    <li><a href="/portfolio" class="button"><span class="portfolio">Portfolio</span></a></li>
+                    <li><a href="/cv" class="button"><span class="mycv">My CV</span></a></li>
+                    <li><a href="/about" class="button"><span class="about">About Me</span></a></li>
+                </ul>
+            </li>
           </ul>
         </nav>
     </header>

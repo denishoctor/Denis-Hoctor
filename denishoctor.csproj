@@ -74,15 +74,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="favicon.ico" />
     <Content Include="static\css\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="static\images\avatar-body.png" />
     <Content Include="static\images\dl-cv.png" />
+    <Content Include="static\images\head-bg.jpg" />
     <Content Include="static\images\icon.png" />
     <Content Include="static\images\logo-large.png" />
     <Content Include="static\images\logo-white-large.png" />
     <Content Include="static\images\logo-white.png" />
     <Content Include="static\images\logo.png" />
-    <Content Include="static\images\myhome-logo-white.gif" />
+    <Content Include="static\images\nav-about.png" />
+    <Content Include="static\images\nav-home.png" />
+    <Content Include="static\images\nav-mycv.png" />
+    <Content Include="static\images\nav-portfolio.png" />
     <Content Include="static\images\portfolio\myhome-l.png" />
     <Content Include="static\images\portfolio\myhome-m.png" />
     <Content Include="static\images\portfolio\myhome-map-l.png" />
@@ -93,8 +99,15 @@
     <Content Include="static\images\portfolio\yahoo-l.png" />
     <Content Include="static\images\portfolio\yahoo-m.png" />
     <Content Include="static\images\portfolio\yahoo-th.png" />
+    <Content Include="static\images\sprite.png" />
     <Content Include="static\images\texture.png" />
     <Content Include="static\images\todo.png" />
+    <Content Include="static\resources\icons\HOME.png" />
+    <Content Include="static\resources\icons\INFO.png" />
+    <Content Include="static\resources\icons\MAIL.png" />
+    <Content Include="static\resources\icons\MESSENGER - AIM.png" />
+    <Content Include="static\resources\icons\NOTEPAD.png" />
+    <Content Include="static\resources\icons\USER - M.png" />
     <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\CV.aspx" />
     <Content Include="Views\Home\Index.aspx" />
@@ -117,7 +130,13 @@
     <Content Include="Views\Shared\Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="static\resources\DenisHoctorCV.pdf" />
+    <Content Include="static\resources\DenisHoctorCV.docx" />
+    <Content Include="static\resources\DenisHoctorCV.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="static\resources\head-bg.psd" />
+    <None Include="static\resources\nav-icons.psd" />
+    <None Include="static\resources\Sprite.psd" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
