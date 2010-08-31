@@ -49,14 +49,16 @@ ol ul ul,ul ul ul{padding-left:3em;}
 /*****************************************************/
 header{background:url("/static/images/head-bg.jpg") no-repeat scroll 50% 0 #1e1d30;padding:12px;}
     nav ul{height:1%;list-style:none;overflow:hidden;}
-        nav li{color:#FFFFFF;float:left;font-size:21px;padding-right:12px;}
-            nav li .button{font-size:0.85em;margin-top:4px;}
-                nav h1{height:48px;margin-bottom:0;}
-                    h1 img{vertical-align:top;height:48px;width:286px;}
-            nav span.home{background:url("/static/images/sprite.png") no-repeat scroll 0 0px transparent;padding-left:28px;}
-            nav span.portfolio{background:url("/static/images/sprite.png") no-repeat scroll 0 -30px transparent;padding-left:28px;}
-            nav span.mycv{background:url("/static/images/sprite.png") no-repeat scroll 0 -60px transparent;padding-left:28px;}
-            nav span.about{background:url("/static/images/sprite.png") no-repeat scroll 0 -90px transparent;padding-left:28px;}
+        nav li{color:#FFFFFF;float:left;font-size:21px;}
+            nav li .button{font-size:0.85em;margin-top:16px;}
+                nav h1{margin-bottom:0;}
+                    h1 img{vertical-align:top;height:60px;width:362px;}
+            nav li ul{padding:0;}
+                nav li ul li{padding-left:12px;}
+                    nav span.home{background:url("/static/images/sprite.png") no-repeat scroll 0 0px transparent;padding-left:28px;}
+                    nav span.portfolio{background:url("/static/images/sprite.png") no-repeat scroll 0 -30px transparent;padding-left:28px;}
+                    nav span.mycv{background:url("/static/images/sprite.png") no-repeat scroll 0 -60px transparent;padding-left:28px;}
+                    nav span.about{background:url("/static/images/sprite.png") no-repeat scroll 0 -90px transparent;padding-left:28px;}
 section{padding:18px 24px 0 24px;}
 #feature{background:url('/static/images/texture.png') repeat 0 0 #E3E3E3;border-bottom:2px solid #ccc;color:#000;}
     #feature article{padding-bottom:24px;}
