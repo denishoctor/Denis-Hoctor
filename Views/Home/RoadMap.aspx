@@ -21,7 +21,6 @@
             <li>Add a Resources/Links page</li>
             <li>Integrate a code highlighter</li>
             <li>Create a Google Maps page tracking my current and past locations</li>
-            <li>Revamp logo as it looks dated after an hour on my dev site</li>
             <li>Investigate microdata integration</li>
             <li>Structure pages and portfolio data dynamically</li>
             <li>SEO
