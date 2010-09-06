@@ -50,9 +50,9 @@ ol ul ul,ul ul ul{padding-left:3em;}
 header{background:url("/static/images/head-bg.jpg") no-repeat scroll 50% 0 #1e1d30;padding:12px;}
     nav ul{height:1%;list-style:none;overflow:hidden;}
         nav li{color:#FFFFFF;float:left;font-size:21px;}
-            nav li .button{font-size:0.85em;margin-top:16px;}
+            nav li .button{font-size:0.85em;margin:30px 0px 5px;}
                 nav h1{margin-bottom:0;}
-                    h1 img{vertical-align:top;height:60px;width:362px;}
+                    h1 img{vertical-align:top;height:60px;margin-top:18px;width:362px;}
             nav li ul{padding:0;}
                 nav li ul li{padding-left:12px;}
                     nav span.home{background:url("/static/images/sprite.png") no-repeat scroll 0 0px transparent;padding-left:28px;}

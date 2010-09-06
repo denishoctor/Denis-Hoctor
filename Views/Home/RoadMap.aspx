@@ -15,6 +15,7 @@
         <ol>
             <li>Add multiple versions of CV and create page specific for it</li>
             <li>Include some code samples on the portfolio page</li>
+            <li>Use external link icon for inline links</li>
             <li>Create contact form for sending emails directly to me</li>
             <li>Add custom errors page</li>
             <li>Expand larger portfolio projects in their own pages</li>
