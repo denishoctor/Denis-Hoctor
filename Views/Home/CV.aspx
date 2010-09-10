@@ -12,7 +12,7 @@
 	    <h3 class="lower">B.Sc. Computer Applications: Information Systems</h3>
 	    <ul>
 	        <li>denishoctor@gmail.com</li>
-	        <li>+61 415 725 746 (Australia)</li>
+	        <li>+61 (0)41 555 8261 (Australia)</li>
 	        <li>+353 (0)86 826 1346 (Ireland)</li>
 	        <li><a href="http://www.linkedin.com/in/denishoctor">http://www.linkedin.com/in/denishoctor</a></li>
 	        <li><a href="http://www.denishoctor.me">http://www.denishoctor.me</a></li>
@@ -34,6 +34,12 @@
 		<p><span class="title">Applications:</span> Visual Studio 2008/10, Tortoise SVN/Git, Photoshop, SQL Server 2008, Google Analytics / Omniture</p>
 	
 	    <h3>WORK EXPERIENCE</h3>
+        <h4>Sep 2010–Current Web Developer, DigitalWorx, Dublin, Ireland</h4>
+	    <ul>
+			<li>Freelanced on projects such as m.ireland.com, building a simply mobile site</li>
+            <li>Worked on a smart phone mobile website using the Sencha Touch framework, which is to be released in early October</li>
+        </ul>
+
 	    <h4>Apr 2008–Sep 2010 .NET Developer, MyHome.ie, Dublin, Ireland</h4>
 		<p>MyHome.ie is the No. 1 residential property site in Ireland with 50k daily unique visitors. I gained a large amount of experience on both the client and server side during my time with them.</p>
 	    <ul>

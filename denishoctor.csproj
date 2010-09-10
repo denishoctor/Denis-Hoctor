@@ -136,6 +136,7 @@
   <ItemGroup>
     <Content Include="static\resources\DenisHoctorCV.docx" />
     <None Include="static\resources\DenisHoctorCV 100830.docx" />
+    <Content Include="static\resources\GoogleCoverLetter.doc" />
     <None Include="static\resources\head-bg.psd" />
     <None Include="static\resources\nav-icons.psd" />
     <None Include="static\resources\Sprite.psd" />
