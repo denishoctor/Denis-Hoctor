@@ -36,8 +36,9 @@
 	    <h3>WORK EXPERIENCE</h3>
         <h4>Sep 2010–Current Web Developer, DigitalWorx, Dublin, Ireland</h4>
 	    <ul>
-			<li>Freelanced on projects such as m.ireland.com, building a simply mobile site</li>
-            <li>Worked on a smart phone mobile website using the Sencha Touch framework, which is to be released in early October</li>
+            <li>Freelanced on projects such as m.ireland.com, building a simply mobile site</li>
+            <li>Worked on a smart phone mobile website using the Sencha Touch framework (release in early October)</li>
+            <li>Supported the main site and implemented several micro sites on irishtimes.com through the site API</li>
         </ul>
 
 	    <h4>Apr 2008–Sep 2010 .NET Developer, MyHome.ie, Dublin, Ireland</h4>
