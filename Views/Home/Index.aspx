@@ -12,7 +12,7 @@
     <section id="content" class="body">
             <h3>Who am I?</h3>
             <ul class="whoami">
-                <li>A Developer with experience in  HTML, CSS, jQuery, Google Maps, C#, Mobile Web & <a href="/cv">more</a></li>
+                <li>A Developer with experience in  HTML, CSS, jQuery, Google Maps, ASP.NET MVC, C#, Mobile Web & <a href="/cv">more</a></li>
                 <li>I recently left my job of 2 years @ <a href="http://www.myhome.ie" rel="nofollow">MyHome.ie</a> in an attempt to get sponsorship in Sydney so as to be with my girlfriend who misses her family too much to stay in Dublin with me</li>
                 <li>Keenly interested in web technology and the convergence of the platforms</li>
                 <li>Enjoy seeing a website come to life and always wanting to use the latest techniques</li>

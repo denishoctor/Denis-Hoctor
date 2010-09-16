@@ -1,11 +1,15 @@
 ﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<% var masterData = ViewData["MasterData"] as MasterPageViewData; %>
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="description" content="The portfolio site for Web Developer and Designer Denis Hoctor. Currently based between Sydney, Australia and Dublin, Ireland. He has a keen interest in all things web, from HTML5 and new desktop browsers developments to the mobile ecosphere. This passion is offset by a love of skiing and scuba diving which let him get away from a computer once in a blue moon." />
-    <meta name="keywords" content="denis hoctor web design development JavaScript CSS HTML5 XHTML C# XML JSON SQL jQuery ASP.NET MVC ASP.NET 2.0 – 4.0 Progressive Enhancement Mobile SEO W3C Google Maps Photoshop ireland arrabeg carrig " />
-    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /> - DenisHoctorDotMe</title>
+    <meta name="keywords" content="<%= masterData.Keywords %>" />
+    <link rel="canonical" href="<%= masterData.Canonical %>" />
+    <base href="http://www.denishoctor.me" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /> - Denis Hoctor</title>
 
     <link rel="stylesheet" href="/static/css/site.css" media="screen,print" />
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -14,7 +18,7 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 </head>
-<body>
+<body class="<%= masterData.PageNameCssClass %>">
     <header>
         <nav class="body">
           <ul>

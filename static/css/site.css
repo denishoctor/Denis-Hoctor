@@ -108,17 +108,17 @@ footer a:hover{text-decoration:underline;}
 /*****************************************************/
 /*  Road Map                                         */
 /*****************************************************/
-.roadmap > ol{padding:0 0 1em 1em;background: url('/static/images/todo.png') no-repeat top right transparent;}
-.roadmap > ol > li {padding-bottom:8px;}
-.roadmap > ol > ul > li {padding-bottom:4px;}
+.roadmap section > ol{padding:0 0 1em 1em;background: url('/static/images/todo.png') no-repeat top right transparent;}
+.roadmap section > ol > li {padding-bottom:8px;}
+.roadmap section > ol > ul > li {padding-bottom:4px;}
 
 /*****************************************************/
 /*  Portfolio                                        */
 /*****************************************************/
-.portfolio > ul > li{border-bottom:1px dashed #BBBBBB;list-style-type:none;margin-bottom:12px;padding:6px 6px 18px;}
-.portfolio ul > li li{list-style-type:disc;}
-.portfolio > ul > li > img ~ ul{margin-left:12em;}
-.portfolio ul img{float:left;margin-right:1em;height:110px;width:160px;}
+.portfolio section > ul > li{border-bottom:1px dashed #BBBBBB;list-style-type:none;margin-bottom:12px;padding:6px 6px 18px;}
+.portfolio section ul > li li{list-style-type:disc;}
+.portfolio section > ul > li > img ~ ul{margin-left:12em;}
+.portfolio section ul img{float:left;margin-right:1em;height:110px;width:160px;}
 
 /*****************************************************/
 /*  About Me                                         */
@@ -127,7 +127,7 @@ footer a:hover{text-decoration:underline;}
 /*****************************************************/
 /*  CV                                               */
 /*****************************************************/
-.cv{position:relative;}
+.cv section{position:relative;}
 .cv > ul{margin-bottom:1em;}
 .cv h2{margin-bottom:0;font-size:3em;}
 .cv h2 + h3{margin-top:0;}
@@ -139,15 +139,7 @@ footer a:hover{text-decoration:underline;}
 .projects > ul > li{font-weight:900;}
 .projects > ul > li ul{font-weight:500;}
 .cv .title{font-weight:900;}
-.downlodcv{background:url("/static/images/dl-cv.png") no-repeat scroll 0 0 transparent;
-display:block;
-height:88px;
-margin-right:18px;
-position:absolute;
-right:0;
-text-decoration:none;
-top:6px;
-width:175px;}
+.downlodcv{background:url("/static/images/dl-cv.png") no-repeat scroll 0 0 transparent;display:block;height:88px;margin-right:18px;position:absolute;right:0;text-decoration:none;top:6px;width:175px;}
     .downlodcv div.dl{line-height:1em;margin-left:94px;margin-top:3px;}
     .downlodcv div{margin-left:107px;}
 /*****************************************************/
@@ -202,3 +194,4 @@ width:175px;}
 .text-right{float:right;}
 .hide{display:none}
 .lower{text-transform:lowercase;}
+.completed{text-decoration:line-through;}

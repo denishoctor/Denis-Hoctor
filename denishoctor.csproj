@@ -67,6 +67,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controllers\Base\BaseController.cs" />
+    <Compile Include="Controllers\Base\MasterPageViewData.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -80,6 +82,7 @@
     <Content Include="static\images\avatar-body.png" />
     <Content Include="static\images\dl-cv.png" />
     <Content Include="static\images\head-bg.jpg" />
+    <Content Include="static\images\home-bg.png" />
     <Content Include="static\images\icon.png" />
     <Content Include="static\images\logo-large.png" />
     <Content Include="static\images\logo-white-large.png" />
@@ -123,13 +126,13 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
     <Folder Include="static\scripts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\Site.Master" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="static\resources\DenisHoctorCV.doc" />
     <None Include="static\resources\DenisHoctorCV100728.docx" />
     <Content Include="static\resources\DenisHoctorCV.pdf" />
   </ItemGroup>

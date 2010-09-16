@@ -9,7 +9,7 @@
             <p>The following is a list of web and tech projects I've been involved in. I'm working to expand this list to encompass everything I've done worth mentioning. What's below is the more recent projects in chronological order.</p>
         </article>
     </section>
-    <section id="content" class="body portfolio">
+    <section id="content" class="body">
         <ul>
             <li>
                 <h3>Smart Phone Web App for Ireland.com (Currently in progress)</h3>

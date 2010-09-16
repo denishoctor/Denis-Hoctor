@@ -11,8 +11,9 @@
             <p>While I certainly don't point to this site as the top of my work just yet. It is code I've written and can be <a href="http://github.com/denishoctor/Denis-Hoctor">viewed in full on Github</a></p>
         </article>
     </section>
-    <section id="content" class="body roadmap">
+    <section id="content" class="body">
         <ol>
+            <li class="completed">Redesign header bg and give it more space</li>
             <li>Add multiple versions of CV and create page specific for it</li>
             <li>Include some code samples on the portfolio page</li>
             <li>Use external link icon for inline links</li>
@@ -27,7 +28,8 @@
             <li>SEO
                 <ul>
                     <li>Use an open font for the h1 with logo</li>
-                    <li>Have dynamic meta data for each page</li>
+                    <li class="completed">Add canonicals</li>
+                    <li class="completed">Have dynamic meta data for each page</li>
                     <li>Review internal linking</li>
                 </ul>
             </li>

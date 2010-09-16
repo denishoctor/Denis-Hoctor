@@ -14,6 +14,12 @@ namespace denishoctor {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                "Index", // Route name
+                "index.html", // URL with parameters
+                new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+            );
+
+            routes.MapRoute(
                 "Root", // Route name
                 "{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults

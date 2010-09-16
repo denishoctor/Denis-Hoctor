@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">Curriculum Vitae</asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <section id="content" class="body cv">
+    <section id="content" class="body">
         <a href="static/resources/DenisHoctorCV.pdf" class="downlodcv">
             <div class="dl">Download</div>
             <div>My CV</div>
