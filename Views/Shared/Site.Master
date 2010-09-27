@@ -22,7 +22,7 @@
     <header>
         <nav class="body">
           <ul>
-            <li><h1><a href="/"><img src="/static/images/logo.png" alt="Denis Hoctor Dot Me Logo" title="DenisHoctorDotMe" /></a></h1></li>
+            <li><h1><a href="/"><img src="/static/images/logo.png" alt="Denis Hoctor Dot Me Logo" title="Denis Hoctor's Portfolio Website" /></a></h1></li>
             <li class="float-right">
                 <ul>
                     <li><a href="/" class="button"><span class="home">Home</span></a></li>

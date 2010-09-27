@@ -36,9 +36,9 @@
 	    <h3>WORK EXPERIENCE</h3>
         <h4>Sep 2010–Current Web Developer, DigitalWorx, Dublin, Ireland</h4>
 	    <ul>
-            <li>Freelanced on projects such as m.ireland.com, building a simply mobile site</li>
-            <li>Worked on a smart phone mobile website using the Sencha Touch framework (release in early October)</li>
-            <li>Supported the main site and implemented several micro sites on irishtimes.com through the site API</li>
+			<li>Created m.ireland.com, a multiformat site using platform detection, one site built on XHTML Basic with a second for Android and iOS built using Sencha Touch feed by JSONP</li>
+			<li>Consumed and refactored RESTful API built on ASP.Net MVC and C#</li>
+			<li>Supported the main site and implemented several micro sites on irishtimes.com through the site API</li>
         </ul>
 
 	    <h4>Apr 2008–Sep 2010 .NET Developer, MyHome.ie, Dublin, Ireland</h4>
@@ -93,7 +93,7 @@
 		    <ul>
 				<li>Yahoo Open Social App - 1 week
 					<ul>
-						<li>Using HTML/CSS and JavaScript (Caja) built live search previews for each property type results in a portable framework that can be reused on social sites</li>					
+						<li>Using HTML/CSS and a JavaScript Subset (Caja) built a search app with the portable Open Social framework that can be reused on several social sites</li>					
 					</ul>
 				</li>
 			</ul>
