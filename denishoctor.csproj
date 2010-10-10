@@ -80,7 +80,8 @@
     <Content Include="static\css\site.css" />
     <Content Include="Global.asax" />
     <Content Include="static\images\avatar-body.png" />
-    <Content Include="static\images\dl-cv.png" />
+    <Content Include="static\images\bullet.png" />
+    <Content Include="static\images\down-icon.png" />
     <Content Include="static\images\head-bg.jpg" />
     <Content Include="static\images\home-bg.png" />
     <Content Include="static\images\icon.png" />
@@ -92,6 +93,7 @@
     <Content Include="static\images\nav-home.png" />
     <Content Include="static\images\nav-mycv.png" />
     <Content Include="static\images\nav-portfolio.png" />
+    <Content Include="static\images\pdf-icon.gif" />
     <Content Include="static\images\portfolio\myhome-l.png" />
     <Content Include="static\images\portfolio\myhome-m.png" />
     <Content Include="static\images\portfolio\myhome-map-l.png" />
@@ -113,9 +115,11 @@
     <Content Include="static\resources\icons\USER - M.png" />
     <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\CV.aspx" />
+    <Content Include="Views\Home\HtmlCV.aspx" />
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Home\Portfolio.aspx" />
     <Content Include="Views\Home\RoadMap.aspx" />
+    <Content Include="Views\Shared\SimpleCV.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -132,6 +136,15 @@
     <Content Include="Views\Shared\Site.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="static\fonts\take_out_the_garbage-webfont.eot" />
+    <Content Include="static\fonts\take_out_the_garbage-webfont.svg" />
+    <Content Include="static\fonts\take_out_the_garbage-webfont.ttf" />
+    <Content Include="static\fonts\take_out_the_garbage-webfont.woff" />
+    <Content Include="static\fonts\titilliumtext22l003-webfont.eot" />
+    <Content Include="static\fonts\titilliumtext22l003-webfont.svg" />
+    <Content Include="static\fonts\titilliumtext22l003-webfont.ttf" />
+    <Content Include="static\fonts\titilliumtext22l003-webfont.woff" />
+    <None Include="static\resources\cv-icons.psd" />
     <None Include="static\resources\DenisHoctorCV.doc" />
     <None Include="static\resources\DenisHoctorCV100728.docx" />
     <Content Include="static\resources\DenisHoctorCV.pdf" />

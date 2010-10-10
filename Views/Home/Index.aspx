@@ -10,16 +10,15 @@
         </article>
     </section>
     <section id="content" class="body">
-            <h3>Who am I?</h3>
-            <ul class="whoami">
-                <li>A Developer with experience in  HTML, CSS, jQuery, Google Maps, ASP.NET MVC, C#, Mobile Web & <a href="/cv">more</a></li>
-                <li>I recently left my job of 2 years @ <a href="http://www.myhome.ie" rel="nofollow">MyHome.ie</a> in an attempt to get sponsorship in Sydney so as to be with my girlfriend who misses her family too much to stay in Dublin with me</li>
-                <li>Keenly interested in web technology and the convergence of the platforms</li>
-                <li>Enjoy seeing a website come to life and always wanting to use the latest techniques</li>
-                <li>My biggest failing is I have no sense of rhythm... worse sometimes I forget</li>
-                <li>I was once a ski instructor, but I haven't been to the snow in nearly two years thanks to the <a href="http://www.skicentre.ie">Ski Centre</a>. For shame.</li>
-                <li>Oh if you want a more standardised look at me checkout <a href="http://www.linkedin.com/in/denishoctor">my linkedin</a></li></li>
-            </ul>
-        </article>
+        <h3>Who am I?</h3>
+        <ul class="whoami list">
+            <li>A Developer with over 4 years experience. I've commerrcial experience with HTML, CSS, jQuery, Google Maps, ASP.NET MVC, C#, Mobile Web & <a href="/cv">more</a></li>
+            <li>I recently left my job of 2 years @ <a href="http://www.myhome.ie" rel="nofollow">MyHome.ie</a> in an attempt to get sponsorship in Sydney so as to be with my girlfriend who misses her family too much to stay in Dublin with me</li>
+            <li>Keenly interested in web technology and the convergence of the platforms</li>
+            <li>Enjoy seeing a website come to life and always wanting to use the latest techniques</li>
+            <li>My biggest failing is I have no sense of rhythm... worse sometimes I forget</li>
+            <li>I was once a ski instructor, but I haven't been to the snow in nearly two years thanks to the <a href="http://www.skicentre.ie">Ski Centre</a>. For shame.</li>
+            <li>Oh if you want a more standardised look at me checkout <a href="http://www.linkedin.com/in/denishoctor">my linkedin</a></li>
+        </ul>
     </section>
 </asp:Content>
