@@ -20,7 +20,7 @@
 	    <li>+61 (0)41 555 8261 (Australia)</li>
 	    <li>+353 (0)86 826 1346 (Ireland)</li>
 	    <li><a href="http://www.linkedin.com/in/denishoctor">http://www.linkedin.com/in/denishoctor</a></li>
-	    <li><a href="http://www.denishoctor.me">http://www.denishoctor.me</a></li>
+	    <li><a href="/">http://denishoctor.me</a></li>
 	</ul>
 	    
 	<h3>SUMMARY</h3>

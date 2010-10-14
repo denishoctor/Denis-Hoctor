@@ -20,12 +20,16 @@
                     <li class="completed">Use an open font for the h1 with logo</li>
                     <li class="completed">Add canonicals</li>
                     <li class="completed">Have dynamic meta data for each page</li>
+                    <li class="completed">Add sitemap and robots.txt</li>
+                    <li class="completed">Tweak URLs to ensure consistency</li>
                 </ul>
             </li>
             <li class="completed">Structure page data dynamically for central meta/title control</li>
             <li class="completed">Add content to the About Me page</li>
             <li class="completed">Add a skills list/matrix</li>
+            <li class="completed">Add Where to Find Me on the Web to About Page</li>
             <li>Add custom errors page</li>
+            <li>Setup Empty Master for cleaner setup of simple pages</li>
             <li>Use external link icon for inline links</li>
             <li>Include some code samples on the portfolio page(s)</li>
             <li>Integrate a code highlighter</li>

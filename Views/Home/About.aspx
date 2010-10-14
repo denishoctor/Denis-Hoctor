@@ -10,7 +10,28 @@
         </article>
     </section>
     <section id="content" class="body">
-        <h3>Technical</h3>
+        <h3>Technical</h3>        
+        <style>
+            #meontheweb{background-color:#FFFFFF;border:1px solid #CCC;float:right;margin:0 0 8px 8px;padding:0 12px 8px;}
+                #meontheweb h3{margin-bottom:0;}
+                #meontheweb ul{list-style:none;}
+                    #meontheweb a{background:url("/static/images/sprite.png") no-repeat scroll 0 0 transparent;display:block;line-height:24px;margin-bottom:3px;padding-left:32px;}
+                    #meontheweb a.linkedin{background-position:0 -120px;}
+                    #meontheweb a.facebook{background-position: 0 -150px;}
+                    #meontheweb a.github{background-position: 0 -180px;}
+                    #meontheweb a.stackoverflow{background-position: 0 -210px;}
+                    #meontheweb a.twitter{background-position: 0 -240px;}
+        </style>
+        <aside id="meontheweb">
+            <h3>Denis on the Web</h3>
+            <ul>
+                <li><a class="linkedin" href="http://www.linkedin.com/in/denishoctor">LinkedIn Profile</a></li>
+                <li><a class="facebook" href="http://www.facebook.com/denishoctor">Facebook Profile</a></li>
+                <li><a class="github" href="http://github.com/denishoctor/">GitHub Repositories</a></li>
+                <li><a class="stackoverflow" href="http://stackoverflow.com/users/116085/denis-hoctor">Stack Overflow</a></li>
+                <li><a class="twitter" href="http://twitter.com/denishoctor">Twitter</a></li>
+            </ul>
+        </aside>
         <p>I'm a Web Developer, with a passion for the front end and an interest in expanding my already competent skills on the server-side and database. I consider myself to be passionate and motivated in the use of the latest technologies, in a manner that can offer the best experience to the broadest set of users. I’ve recently enjoyed working with ASP.NET MVC as I find its power and flexibility lets me get the job done with few compromises.</p>
         <p>As a Front End Developer I feel I need to be comfortable on the server-side and with the data to an extent that allows me create clean and flexible presentation layers. This is something that ASP.NET MVC has been very good at, allowing for serverside separation of concerns. A Front End Developer shouldn’t only be concerned with the client-side separation of the mark-up, presentation and behaviour. Instead they need to look onto the server and ensure that what is coming to a given view is also to the standard they apply to the browser.</p>
         <p>This interest in the server and data along with my degree in Computer Applications has meant I’ve worked at all levels of several web sites and applications. I’m confident enough in these skills to feel comfortable getting a site running alone when required.</p>
@@ -21,6 +42,8 @@
             <dt>(x)HTML(5)</dt>
             <dd title="100%"><div style="width:100%">100%</div></dd>
             <dt>JavaScript</dt>
+            <dd title="90%"><div style="width:90%">90%</div></dd>
+            <dt>AJAX</dt>
             <dd title="90%"><div style="width:90%">90%</div></dd>
             <dt>JSON</dt>
             <dd title="100%"><div style="width:100%">100%</div></dd>
@@ -42,6 +65,8 @@
             <dd title="70%"><div style="width:70%">70%</div></dd>
             <dt>Photoshop</dt>
             <dd title="65%"><div style="width:65%">65%</div></dd>
+            <dt>Frontend Performance</dt>
+            <dd title="85%"><div style="width:85%">85%</div></dd>
         </dl>
         <p class="small append-top">*This list contains some of my key skills and is a rough estimate of how strong I view myself with each.</p>
         <h3>Personal</h3>

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: http://www.denishoctor.me/DxDiag.txt
+Disallow: http://www.denishoctor.me/private/
+Sitemap: http://www.denishoctor.me/sitemap.xml

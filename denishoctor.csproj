@@ -77,13 +77,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
+    <Content Include="robots.txt" />
+    <Content Include="sitemap.xml" />
     <Content Include="static\css\site.css" />
     <Content Include="Global.asax" />
     <Content Include="static\images\avatar-body.png" />
     <Content Include="static\images\bullet.png" />
+    <Content Include="static\images\doc-icon.gif" />
     <Content Include="static\images\down-icon.png" />
     <Content Include="static\images\head-bg.jpg" />
     <Content Include="static\images\home-bg.png" />
+    <Content Include="static\images\html-icon.gif" />
     <Content Include="static\images\icon.png" />
     <Content Include="static\images\logo-large.png" />
     <Content Include="static\images\logo-white-large.png" />
@@ -119,6 +123,7 @@
     <Content Include="Views\Home\Index.aspx" />
     <Content Include="Views\Home\Portfolio.aspx" />
     <Content Include="Views\Home\RoadMap.aspx" />
+    <Content Include="Views\Shared\Analytics.ascx" />
     <Content Include="Views\Shared\SimpleCV.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -145,14 +150,14 @@
     <Content Include="static\fonts\titilliumtext22l003-webfont.ttf" />
     <Content Include="static\fonts\titilliumtext22l003-webfont.woff" />
     <None Include="static\resources\cv-icons.psd" />
-    <None Include="static\resources\DenisHoctorCV.doc" />
+    <Content Include="static\resources\DenisHoctorCV.doc" />
     <None Include="static\resources\DenisHoctorCV100728.docx" />
     <Content Include="static\resources\DenisHoctorCV.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="static\resources\DenisHoctorCV.docx" />
     <None Include="static\resources\DenisHoctorCV 100830.docx" />
-    <Content Include="static\resources\GoogleCoverLetter.doc" />
+    <None Include="static\resources\GoogleCoverLetter.doc" />
     <None Include="static\resources\head-bg.psd" />
     <None Include="static\resources\nav-icons.psd" />
     <None Include="static\resources\Sprite.psd" />
@@ -171,8 +176,8 @@
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
-          <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>56589</DevelopmentServerPort>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>4040</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

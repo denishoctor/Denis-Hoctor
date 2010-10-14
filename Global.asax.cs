@@ -20,6 +20,12 @@ namespace denishoctor {
             );
 
             routes.MapRoute(
+                "HtmlCV", // Route name
+                "static/resources/DenisHoctorCV.html", // URL with parameters
+                new { controller = "Home", action = "HtmlCV" } // Parameter defaults
+            );
+
+            routes.MapRoute(
                 "Root", // Route name
                 "{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
