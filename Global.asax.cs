@@ -43,5 +43,21 @@ namespace denishoctor {
 
             RegisterRoutes(RouteTable.Routes);
         }
+
+        protected void Application_Error(object sender, EventArgs e) {
+            // An error has occured on a .Net page.
+            var serverError = Server.GetLastError() as HttpException;
+
+            if (null != serverError) {
+                int errorCode = serverError.GetHttpCode();
+
+                if (404 == errorCode) {
+                    Server.ClearError();
+                    Server.Transfer("/static/html/404error.html");
+                }
+            }
+        }
+
+        private string AppVersion { get { return System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString(); } }
     }
 }

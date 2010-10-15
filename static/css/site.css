@@ -185,6 +185,12 @@ footer a:hover{text-decoration:underline;}
     #downloadcv img{margin-left:6px;height:100px;width:80px;}
 /* HTML CV Page */
 .htmlcv #downloadcv{display:none;}
+
+/*****************************************************/
+/*  Error                                            */
+/*****************************************************/
+.error.body{text-align:center;}
+
 /*****************************************************/
 /*  Module Classes                                   */
 /*****************************************************/

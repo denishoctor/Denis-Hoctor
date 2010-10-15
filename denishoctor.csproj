@@ -81,14 +81,19 @@
     <Content Include="sitemap.xml" />
     <Content Include="static\css\site.css" />
     <Content Include="Global.asax" />
+    <Content Include="static\html\404error.html" />
+    <Content Include="static\html\error.html" />
     <Content Include="static\images\avatar-body.png" />
     <Content Include="static\images\bullet.png" />
     <Content Include="static\images\doc-icon.gif" />
     <Content Include="static\images\down-icon.png" />
+    <Content Include="static\images\error.gif" />
     <Content Include="static\images\head-bg.jpg" />
     <Content Include="static\images\html-icon.gif" />
     <Content Include="static\images\icon.png" />
     <Content Include="static\images\pdf-icon.gif" />
+    <Content Include="static\images\portfolio\ireland-mobile-th.png" />
+    <Content Include="static\images\portfolio\ireland-smartmobile-th.png" />
     <Content Include="static\images\portfolio\myhome-l.png" />
     <Content Include="static\images\portfolio\myhome-m.png" />
     <Content Include="static\images\portfolio\myhome-map-l.png" />
@@ -117,6 +122,7 @@
     <Content Include="static\resources\icons\MESSENGER - AIM.png" />
     <Content Include="static\resources\icons\NOTEPAD.png" />
     <Content Include="static\resources\icons\USER - M.png" />
+    <Content Include="static\scripts\DD_belatedPNG_0.0.8a-min.js" />
     <Content Include="Views\Home\About.aspx" />
     <Content Include="Views\Home\CV.aspx" />
     <Content Include="Views\Home\HtmlCV.aspx" />
@@ -135,9 +141,7 @@
     </Content>
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="static\scripts\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Views\Shared\Site.Master" />
   </ItemGroup>

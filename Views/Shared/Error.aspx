@@ -3,6 +3,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">Error Occurred</asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>Oops, something went wrong somewhere.</h2>    
-    <p>I swear this almost never happens! For my part I hope you typed the wrong url or someone sent you a bad link. Otherwise please contact me to give me a heads up and I'll fix it ASAP.</p>
+    <section id="feature">
+        <article class="body">        
+            <h2>Oops, something went wrong.</h2>    
+            <p>I swear this almost never happens! Please contact me to give me a heads up and I'll fix the issue ASAP.</p>
+        </article>
+    </section>
+    <section id="content" class="body error">
+        <img src="/static/images/error.gif" alt="Depressed Boy" title="Oops, something went wrong" />
+    </section>
 </asp:Content>

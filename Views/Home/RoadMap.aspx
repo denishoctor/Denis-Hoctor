@@ -30,6 +30,11 @@
             <li class="completed">Add Where to Find Me on the Web to About Page</li>
             <li>Add custom errors page</li>
             <li>Setup Empty Master for cleaner setup of simple pages</li>
+            <li>Emulate <a href="http://beautyoftheweb.com" rel="nofollow">beautyoftheweb.com</a>'s page transitions. (Fun one!)
+                <ul class="list">
+                    <li>So this one has me thinking! I'm probably going to create a web app that wraps all the current views and can request their content markup over AJAX. This will let me use JS to animate the transitions. I'm thinking I'll use a JS MVC pattern or maybe a framework like <a href="http://www.bennadel.com/resources/projects/cormvc/demo/index.htm#/">corMVC</a> and <a href="http://www.javascriptmvc.com">javascriptMVC</a>.</li>
+                </ul>
+            </li>
             <li>Use external link icon for inline links</li>
             <li>Include some code samples on the portfolio page(s)</li>
             <li>Integrate a code highlighter</li>

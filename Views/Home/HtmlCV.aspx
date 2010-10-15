@@ -1,4 +1,6 @@
 ﻿<%@ Page Language="C#" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
+<% var masterData = ViewData["MasterData"] as MasterPageViewData; %>
+<% var version = Application["Version"]; %>
 <!DOCTYPE html>
 <html>
 <head runat="server">    
@@ -8,7 +10,7 @@
     <link rel="canonical" href="<%= masterData.Canonical %>" />
     <title>CV of a Front-End Web Developer with C# &amp; ASP.NET MVC - Denis Hoctor</title>
 
-    <link rel="stylesheet" href="/static/css/site.css?1.4" media="screen,print" />
+    <link rel="stylesheet" href="/static/css/site.css?<%= version %>" media="screen,print" />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     <!--[if lt IE 9]>
