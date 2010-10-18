@@ -36,14 +36,6 @@ article,aside,figure,footer,header,hgroup,nav,section{display:block}
 /*  Fonts                                            */
 /*****************************************************/
 @font-face {
-	font-family: 'TitilliumText22LRegular';
-	src: url('titilliumtext22l003-webfont.eot');
-	src: local('☺'), url('/static/fonts/titilliumtext22l003-webfont.woff') format('woff'), url('/static/fonts/titilliumtext22l003-webfont.ttf') format('truetype'), url('/static/fonts/titilliumtext22l003-webfont.svg#webfonto6AwVFrO') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family: 'takeoutthegarbageRegular';
 	src: url('/static/fonts/take_out_the_garbage-webfont.eot');
 	src: local('☺'), url('/static/fonts/take_out_the_garbage-webfont.woff') format('woff'), url('/static/fonts/take_out_the_garbage-webfont.ttf') format('truetype'), url('/static/fonts/take_out_the_garbage-webfont.svg#webfontizMzHv5e') format('svg');
@@ -137,9 +129,9 @@ footer a:hover{text-decoration:underline;}
 .portfolio section > ul > li{border-bottom:1px dashed #BBBBBB;list-style-type:none;margin-bottom:12px;overflow:hidden;padding:6px 6px 18px;}
 
 .portfolio section ul img{border:1px solid #CCC;float:left;margin: 0px 1em 0px 0.5em;height:110px;width:160px;}
-.portfolio section ul li:hover img{transform:scale(1.1);
-    -moz-transform:scale(1.1);
-    -webkit-transform:scale(1.1);
+.portfolio section ul li:hover img{transform:scale(1.05);
+    -moz-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
 }
 .portfolio section ul img + div{float:left;width:80%;}
 
@@ -160,6 +152,8 @@ footer a:hover{text-decoration:underline;}
         #skillslist div{background-color:#98BA40;height: 15px;text-indent: -9999px;
             background:-moz-linear-gradient(top center, #98BA40, #608925);
             background:-webkit-gradient(linear, 0% 10%, 0% 90%, from(#98BA40), to(#608925));
+            -moz-border-radius:4px;
+            border-radius:4px;
         }
 /*****************************************************/
 /*  CV                                               */

@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage<dynamic>" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">Welcome</asp:Content>
+<asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">Web Developer / Front End Engineer, with C# and ASP.NET MVC</asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <section id="feature">

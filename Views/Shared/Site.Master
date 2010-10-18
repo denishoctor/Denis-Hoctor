@@ -7,6 +7,11 @@
     <meta charset="utf-8" />
     <meta name="description" content="<%= masterData.Description %>" />
     <meta name="keywords" content="<%= masterData.Keywords %>" />
+    <meta name="author" content="Denis Hoctor">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <% if(!masterData.Indexable) { %><meta name="robots" content="noindex" /><% } %>
     <link rel="canonical" href="<%= masterData.Canonical %>" />
     <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /> - Denis Hoctor</title>
 
@@ -44,7 +49,7 @@
             <li><a href="/roadmap">Site Roadmap</a></li>
             <li><a href="mailto:denishoctor@gmail.com">Contact</a></li>
         </ul>
-    </footer>    
+    </footer>
     <% if (this.Request.UserAgent.Contains("MSIE 6")) { %>
     <script src="/static/scripts/DD_belatedPNG_0.0.8a-min.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -55,8 +60,8 @@
     <script>
         WebFont.load({
             custom: {
-                families: ['Tagesschrift'],
-                urls: ['http://paulirish.com/tagesschrift.css']
+                families: ['takeoutthegarbageregular'],
+                urls: ['/static/fonts/take_out_the_garbage-webfont.eot']
             }
         });
     </script>

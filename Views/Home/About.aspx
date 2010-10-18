@@ -48,9 +48,9 @@
             <dt>JSON</dt>
             <dd title="100%"><div style="width:100%">100%</div></dd>
             <dt>ASP.NET MVC</dt>
-            <dd title="70%"><div style="width:70%">70%</div></dd>
+            <dd title="75%"><div style="width:75%">75%</div></dd>
             <dt>C#</dt>
-            <dd title="70%"><div style="width:70%">60%</div></dd>
+            <dd title="65%"><div style="width:65%">65%</div></dd>
             <dt>Mobile Web</dt>
             <dd title="80%"><div style="width:80%">80%</div></dd>
             <dt>Google Maps</dt>
@@ -58,13 +58,13 @@
             <dt>SEO</dt>
             <dd title="75%"><div style="width:75%">75%</div></dd>
             <dt>SQL</dt>
-            <dd title="60%"><div style="width:60%">60%</div></dd>
+            <dd title="50%"><div style="width:50%">50%</div></dd>
             <dt>.NET 2.0/3.5/4</dt>
-            <dd title="60%"><div style="width:60%">60%</div></dd>
+            <dd title="50%"><div style="width:50%">50%</div></dd>
             <dt>XML</dt>
-            <dd title="70%"><div style="width:70%">70%</div></dd>
+            <dd title="50%"><div style="width:50%">50%</div></dd>
             <dt>Photoshop</dt>
-            <dd title="65%"><div style="width:65%">65%</div></dd>
+            <dd title="60%"><div style="width:60%">60%</div></dd>
             <dt>Frontend Performance</dt>
             <dd title="85%"><div style="width:85%">85%</div></dd>
         </dl>

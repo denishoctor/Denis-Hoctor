@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using System.Web.Security;
 
 namespace denishoctor {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
@@ -38,26 +39,14 @@ namespace denishoctor {
             );
         }
 
+
         protected void Application_Start() {
             AreaRegistration.RegisterAllAreas();
 
             RegisterRoutes(RouteTable.Routes);
         }
 
-        protected void Application_Error(object sender, EventArgs e) {
-            // An error has occured on a .Net page.
-            var serverError = Server.GetLastError() as HttpException;
+        private double AppVersion { get { return 1.5; } }
 
-            if (null != serverError) {
-                int errorCode = serverError.GetHttpCode();
-
-                if (404 == errorCode) {
-                    Server.ClearError();
-                    Server.Transfer("/static/html/404error.html");
-                }
-            }
-        }
-
-        private string AppVersion { get { return System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString(); } }
     }
 }

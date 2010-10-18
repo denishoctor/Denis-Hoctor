@@ -1,0 +1,7 @@
+﻿@font-face {
+	font-family: 'takeoutthegarbageregular';
+	src: url('/static/fonts/take_out_the_garbage-webfont.eot');
+	src: local('☺'), url('/static/fonts/take_out_the_garbage-webfont.woff') format('woff'), url('/static/fonts/take_out_the_garbage-webfont.ttf') format('truetype'), url('/static/fonts/take_out_the_garbage-webfont.svg#webfontizMzHv5e') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
