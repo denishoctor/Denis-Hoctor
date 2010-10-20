@@ -66,14 +66,14 @@ namespace denishoctor.Controllers
         public ActionResult Error() {
             Response.StatusCode = 500;
             this.MasterData.Indexable = false;
-            this.MasterData.Canonical = "http://denishoctor.me/";
+            this.MasterData.Canonical = "http://denishoctor.me";
             return View();
         }
 
         public ActionResult Lost() {
             Response.StatusCode = 404;
             this.MasterData.Indexable = false;
-            this.MasterData.Canonical = "http://denishoctor.me/";
+            this.MasterData.Canonical = "http://denishoctor.me";
             return View();
         }
     }

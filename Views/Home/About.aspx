@@ -10,18 +10,7 @@
         </article>
     </section>
     <section id="content" class="body">
-        <h3>Technical</h3>        
-        <style>
-            #meontheweb{background-color:#FFFFFF;border:1px solid #CCC;float:right;margin:0 0 8px 8px;padding:0 12px 8px;}
-                #meontheweb h3{margin-bottom:0;}
-                #meontheweb ul{list-style:none;}
-                    #meontheweb a{background:url("/static/images/sprite.png") no-repeat scroll 0 0 transparent;display:block;line-height:24px;margin-bottom:3px;padding-left:32px;}
-                    #meontheweb a.linkedin{background-position:0 -120px;}
-                    #meontheweb a.facebook{background-position: 0 -150px;}
-                    #meontheweb a.github{background-position: 0 -180px;}
-                    #meontheweb a.stackoverflow{background-position: 0 -210px;}
-                    #meontheweb a.twitter{background-position: 0 -240px;}
-        </style>
+        <h3>Technical</h3>
         <aside id="meontheweb">
             <h3>Denis on the Web</h3>
             <ul>

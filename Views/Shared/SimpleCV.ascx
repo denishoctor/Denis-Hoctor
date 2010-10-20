@@ -29,7 +29,7 @@
 	    <li>2 years working primarily within ASP.NET MVC</li>
 	    <li>Excellent knowledge of HTML5/XHTML, CSS, JavaScript (including jQuery), SEO, performance and usability</li>
 	    <li>Ability to work on the server-side in C# and the backend with SQL</li>
-	    <li>Interest in new and alternate technologies. HTML5, CSS3, MVC, Python, Google App Engine</li>
+	    <li>Interest in new technologies & approaches: HTML5, CSS3, JavaScript MVC, ASP.NET MVC</li>
 	    <li>Graduated with honours B.Sc. in Computer Applications: Information Systems</li>
 	</ul>
 	    

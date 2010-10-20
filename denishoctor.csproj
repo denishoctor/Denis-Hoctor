@@ -69,7 +69,6 @@
   <ItemGroup>
     <Compile Include="Controllers\Base\BaseController.cs" />
     <Compile Include="Controllers\Base\MasterPageViewData.cs" />
-    <Compile Include="Controllers\Helpers\FileNotFoundResult.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -134,7 +133,9 @@
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Views\Shared\Lost.aspx" />
     <Content Include="Views\Shared\SimpleCV.ascx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -143,7 +144,9 @@
     </Content>
     <Content Include="Views\Web.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Controllers\Helpers\" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\Site.Master" />
   </ItemGroup>
@@ -158,7 +161,6 @@
     <Content Include="static\resources\DenisHoctorCV.pdf" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="static\resources\DenisHoctorCV.docx" />
     <None Include="static\resources\DenisHoctorCV 100830.docx" />
     <None Include="static\resources\GoogleCoverLetter.doc" />
     <None Include="static\resources\head-bg.psd" />
