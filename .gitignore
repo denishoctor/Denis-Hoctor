@@ -3,3 +3,4 @@ IrelandDotCom.Phone.csproj.user
 /bin/*
 /obj/*
 *.Publish.xml
+.project
